@@ -7,7 +7,7 @@
 <body>
     @auth
 
-    <p> congrat you are logged in.</p>
+    <p> Welcome To Stream</p>
     <form action="/logout" method="POST">
         @csrf
         <button>Log out</button>
